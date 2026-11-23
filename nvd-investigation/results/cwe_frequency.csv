@@ -1,0 +1,9 @@
+cwe_id,weakness,cve_count
+CWE-787,Out-of-bounds Write,12850
+CWE-125,Out-of-bounds Read,7626
+CWE-119,Improper Memory Buffer Bounds,6236
+CWE-416,Use After Free,5829
+CWE-476,NULL Pointer Dereference,4546
+CWE-120,Classic Buffer Overflow,3266
+CWE-121,Stack-based Buffer Overflow,1200
+CWE-122,Heap-based Buffer Overflow,595

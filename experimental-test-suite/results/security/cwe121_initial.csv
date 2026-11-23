@@ -1,0 +1,5 @@
+configuration,input_length,canary_instrumentation,outcome
+baseline,5,disabled,normal_completion
+canary,5,enabled,normal_completion
+baseline,25,disabled,bus_error
+canary,25,enabled,stack_smashing_detected
