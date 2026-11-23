@@ -1,0 +1,59 @@
+
+# ==========================================
+# Compiled C programs and build artifacts
+# ==========================================
+build/
+*.o
+*.out
+*.so
+*.a
+
+# ==========================================
+# Python cache and environments
+# ==========================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ==========================================
+# Large downloaded NVD datasets
+# ==========================================
+data/raw/
+*.json.zip
+
+# ==========================================
+# Core dumps and debugging artifacts
+# ==========================================
+core
+core.*
+*.core
+*.log
+
+# ==========================================
+# Temporary and editor files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+
+# ==========================================
+# Local environment and credentials
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Temporary archives
+# ==========================================
+*.tar.gz
+*.zip
